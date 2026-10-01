@@ -1,0 +1,10 @@
+class,truth,assigned,top_5_features,mechanism
+DDoS-ICMP,Denial of Service,Information Disclosure,"UDP, Max, TCP, ack_flag_number, Std","multi-candidate ID dilution via ['UDP', 'ack_flag_number']"
+DoS-ICMP,Denial of Service,Information Disclosure,"UDP, Max, ack_flag_number, TCP, Std","multi-candidate ID dilution via ['UDP', 'ack_flag_number']"
+MQTT-DoS-Connect_Flood,Denial of Service,Information Disclosure,"syn_count, ack_flag_number, ack_count, fin_count, psh_flag_number","multi-candidate ID dilution via ['syn_count', 'ack_flag_number', 'ack_count']"
+MQTT-DoS-Publish_Flood,Denial of Service,Information Disclosure,"ack_flag_number, psh_flag_number, Max, AVG, Tot sum","multi-candidate ID dilution via ['ack_flag_number']"
+Recon-OS_Scan,Information Disclosure,Denial of Service,"Number, ack_flag_number, fin_count, rst_flag_number, SSH","volume feature (Number/Tot sum/Weight/Tot size) is DoS-only in the config"
+Recon-Port_Scan,Information Disclosure,Denial of Service,"Number, fin_count, rst_flag_number, ack_flag_number, TCP","volume feature (Number/Tot sum/Weight/Tot size) is DoS-only in the config"
+Recon-VulScan,Information Disclosure,Denial of Service,"Number, ack_flag_number, psh_flag_number, syn_count, Std","volume feature (Number/Tot sum/Weight/Tot size) is DoS-only in the config"
+Spoofing,Spoofing,Denial of Service,"Header_Length, Number, Max, AVG, ack_flag_number","single-route STRIDE category unreachable (Spoofing has 1 feature in the whole map)"
+MQTT-Malformed_Data,Tampering,Information Disclosure,"Number, ack_flag_number, syn_count, psh_flag_number, ack_count","single-route STRIDE category unreachable (Tampering has 1 feature in the whole map)"

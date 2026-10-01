@@ -1,0 +1,5 @@
+stride_category,feature_capec_entries,ground_truth_classes
+Denial of Service,11,12
+Information Disclosure,17,4
+Spoofing,1,1
+Tampering,1,1

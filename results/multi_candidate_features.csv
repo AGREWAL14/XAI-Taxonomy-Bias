@@ -1,0 +1,8 @@
+feature,stride_targets
+syn_flag_number,"['Information Disclosure', 'Information Disclosure', 'Denial of Service']"
+syn_count,"['Information Disclosure', 'Information Disclosure', 'Denial of Service']"
+ack_flag_number,"['Information Disclosure', 'Information Disclosure']"
+ack_count,"['Information Disclosure', 'Information Disclosure']"
+ICMP,"['Denial of Service', 'Information Disclosure']"
+UDP,"['Denial of Service', 'Information Disclosure', 'Information Disclosure']"
+Header_Length,"['Information Disclosure', 'Tampering']"
